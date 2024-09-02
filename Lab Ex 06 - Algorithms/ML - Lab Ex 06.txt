@@ -1,0 +1,25 @@
+Find out the different tunable parameters for each algorithms mentioned above.
+
+1)Decision Trees - Decision trees have various parameters that can be tuned to improve performance and prevent overfitting. Some of the important parameters include:
+- max_depth: Maximum depth of the tree. Increasing this parameter can lead to deeper trees, which may result in overfitting.
+- min_samples_split: The minimum number of samples required to split an internal node. Increasing this parameter can prevent overfitting by requiring a - - higher number of samples to split a node.
+- min_samples_leaf: The minimum number of samples required to be at a leaf node. Increasing this parameter can prevent overfitting by requiring a higher number of samples in each leaf node.
+- max_features: The number of features to consider when looking for the best split. This parameter can be used to limit the number of features considered, which can help prevent overfitting.
+
+
+2)Random Forest - Random forests are an ensemble learning method that consists of multiple decision trees. Some of the tunable parameters for random forests include:
+- n_estimators: The number of trees in the forest. Increasing the number of trees can improve performance but may also increase computation time.
+Parameters related to individual decision trees (e.g., max_depth, min_samples_split, min_samples_leaf, max_features) can also be tuned for each tree in the forest.
+
+
+3)AdaBoost - AdaBoost is an ensemble learning method that combines multiple weak learners to create a strong learner. Some tunable parameters for AdaBoost include:
+- base_estimator: The base estimator used for training. By default, AdaBoost uses decision trees as weak learners, but other base estimators can also be used.
+- n_estimators: The maximum number of estimators at which boosting is terminated. Increasing this parameter can improve performance but may also increase computation time.
+- learning_rate: The contribution of each weak learner to the final prediction. Lower values of learning rate generally result in more robust models, but they may require a higher number of estimators to achieve similar performance.
+
+
+4)Support Vector Machines (SVM) - SVMs are supervised learning models used for classification and regression tasks. Some of the tunable parameters for SVM include:
+
+- C: Regularization parameter. Higher values of C allow the model to fit the training data more closely, potentially leading to overfitting.
+- kernel: Specifies the type of kernel used in the algorithm (e.g., linear, polynomial, radial basis function). The choice of kernel can significantly impact model performance.
+- gamma: Kernel coefficient for certain kernels (e.g., radial basis function). Higher values of gamma can lead to overfitting by making the decision boundary more complex.

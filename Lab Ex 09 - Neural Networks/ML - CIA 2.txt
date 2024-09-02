@@ -1,0 +1,24 @@
+Lab Ex 09 
+
+1. Neural Network from Scratch:
+- Implement forward propagation to compute the predicted output.
+- Implement backward propagation to compute gradients of loss with respect to parameters.
+- Use gradient descent optimization technique to update the parameters (weights and biases).
+- Run for at least 200 iterations.
+
+2. Neural Network using Keras:
+
+- Build a neural network using the Keras library with the same architecture as the one implemented from scratch.
+- Train the Keras model with the same dataset and run it for the same number of epochs (at least 200).
+- Evaluate the accuracy of both models on the test set and compare the results.
+
+Differences 
+
+1. From Scratch:
+
+You build the neural network entirely by coding its components, such as layers, activations, and optimization algorithms, from basic mathematical operations. Provides maximum control and flexibility. Requires a good understanding of neural network principles and mathematics. Complex and time-consuming, especially for larger models.
+
+2. Using Keras:
+
+You use a high-level deep learning framework that provides pre-built functions and abstractions for defining, training, and evaluating neural networks.
+Offers simplicity, ease of use, and faster development. Sacrifices some level of control and flexibility compared to coding from scratch. Ideal for rapid prototyping, experimentation, and most deep learning tasks.

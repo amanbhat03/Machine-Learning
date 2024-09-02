@@ -1,0 +1,21 @@
+ML- CIA1 
+
+Logistic regression is a supervised machine learning algorithm used for classification tasks where the goal is to predict the probability that an instance belongs to a given class or not. Logistic regression can provide the best accuracy when the relationship between the features and the target variable is approximately linear on the log-odds scale, and the classes are well-separated. It's particularly effective for binary classification tasks, where it models the probability of the target variable belonging to a specific class. Logistic regression is robust, interpretable, and computationally efficient, making it suitable for scenarios with a large number of features or a relatively small dataset. However, it may not perform well when the classes are heavily imbalanced or when the relationship between features and the target variable is non-linear. Therefore, while logistic regression can offer high accuracy in many cases, it's essential to evaluate its performance alongside other classification algorithms to ensure the best model selection for the specific problem at hand.
+
+
+The steps involved are 
+
+- Prepare Data: Encode categorical variables and handle missing values.
+- Split Data: Divide the dataset into training and testing sets.
+- Initialize Model: Create a logistic regression model.
+- Train Model: Fit the model to the training data.
+- Evaluate Model: Assess the model's performance on the testing data.
+- Predictions: Use the trained model to make predictions on new data.
+- Interpretation: Interpret the model coefficients to understand feature importance.
+- Fine-tuning: Optionally adjust model parameters for better performance.
+
+
+
+
+
+
